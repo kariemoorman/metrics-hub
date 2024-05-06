@@ -33,7 +33,7 @@ double cosineSimilarity(const std::vector<double>& v1, const std::vector<double>
     return dot / (mag1 * mag2);
 }
 
-// euclideanDistance Function: Calculate the squared difference between two elements in two respective vectors.
+// euclideanDistance Function: Calculate the squared difference between elements in two vectors.
 double euclideanDistance(const std::vector<double>& v1, const std::vector<double>& v2) {
     if (v1.size() != v2.size()) {
         std::cerr << "Error: Vectors do not share same dimensionality." << std::endl;
